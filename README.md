@@ -4,7 +4,7 @@
 ### 安装shell integration
 <https://www.iterm2.com/documentation-shell-integration.html>
 
-### 安装脚本
+### 执行以下命令
 
 ```bash
 source <(curl -fsSL https://raw.githubusercontent.com/zhranklin/easy_iterm_badge/master/install.sh)
@@ -29,9 +29,13 @@ status bar处右键 → Configure Status Bar → 找到"Interpolated String" →
 设置完成后起一个新的shell, 执行`test_login 127.0.0.1`, status会出现`test_login to 127.0.0.1`的字样, 过几秒后消失, 即成功安装。
 
 ## 使用
+### ssh
+内置一个ssh命令, 可以直接试一下
+
+### 自定义脚本
 `~/.easy_iterm_badge/scripts`目录下存放自己的脚本, 直接输入该目录下脚本名即可, 新脚本需要重启shell生效。
 
 ### 自定义内容
 脚本第二行加上注释可以修改状态栏文本内容, 即"自定义内容+参数", 不加注释则为完整的命令行内容
 
-内置一个ssh命令, 可以直接试一下
+
