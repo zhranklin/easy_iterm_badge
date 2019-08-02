@@ -1,7 +1,7 @@
 # easy\_iterm\_badge
 
 ## 安装
-### 安装脚本
+### 执行以下命令
 
 ```bash
 source <(curl -fsSL https://raw.githubusercontent.com/zhranklin/easy_iterm_badge/master/install.sh)
