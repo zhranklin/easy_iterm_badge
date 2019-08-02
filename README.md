@@ -1,6 +1,9 @@
 # easy\_iterm\_badge
 
 ## 安装
+### 安装shell integration
+<https://www.iterm2.com/documentation-shell-integration.html>
+
 ### 安装脚本
 
 ```bash
